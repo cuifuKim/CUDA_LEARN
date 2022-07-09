@@ -424,10 +424,9 @@ my_sum
 * The kernel used in ```sum_row_v3``` above will only work as advertised if the array we want to sum over fits within a single thread block. Create a new kernel which will work for arrays of any size and test your result against the sum method of a numpy array on the CPU.
 
 ---
+### Constant memory
 
-## Constant memory
-
-For our final example we'll do something a bit more substantial for which we might expect to see a significant benefit from using a GPU. Imagine we have a function of three variables $f(x,y,z)$ which is defined as a sum over Gaussians centered on $P$ different points $\{x_{i},y_{i},z_{i}\}$. We are only interested in the function between -10 and +10 in each direction.
+# For our final example we'll do something a bit more substantial for which we might expect to see a significant benefit from using a GPU. Imagine we have a function of three variables $f(x,y,z)$ which is defined as a sum over Gaussians centered on $P$ different points $\{x_{i},y_{i},z_{i}\}$. We are only interested in the function between -10 and +10 in each direction.
 
 $$f(x,y,z) = \sum_{i=1}^{P}A\exp\left\{-w\left[\left(x-x_{i}\right)^2+\left(y-y_{i}\right)^2+\left(z-z_{i}\right)^2\right]\right\}$$
 
@@ -442,6 +441,7 @@ Exactly this problem can arise in molecular simulation when attempting to create
 NOTE - if this code looks like the least pythonic thing you've ever seen there's a reason for that. It has been translated line by line from an existing C code I use in my reseach.
 
 We'll start by running a C implementation of this code which runs on the CPU. The file ```quadrature_CPU.c``` should exist in the same directory you're running this notebook from. 
+
 
 
 # The following will be executed as terminal commands due to the "!" at the start
