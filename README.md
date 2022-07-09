@@ -10,10 +10,9 @@ To run the notebooks you will need a CUDA capable GPU card. The examples use dou
 * [Pillow]-https://python-pillow.org 
 * [Matplotlib]-https://matplotlib.org/
 * [Jupyter]-http://jupyter.org/
-
 <br>
 <center>
-<img src="porg.jpg" width="475" height="254">
+<img src="porg.jpg" width="1025" height="975.3">
 </center>
 
-Porgs are cool and Tks gpuschool2018.
+Porgs are cool and Ths from gpu summer2018.
