@@ -12,7 +12,7 @@ To run the notebooks you will need a CUDA capable GPU card. The examples use dou
 * [Jupyter]-http://jupyter.org/
 <br>
 <center>
-<img src="porg.jpg" width="1025" height="975.3">
+<img src="porg.jpg" width="1000" height="1000">
 </center>
 
 Porgs are cool and Ths from gpu summer2018.
