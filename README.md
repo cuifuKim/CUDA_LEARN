@@ -13,7 +13,7 @@ To run the notebooks you will need a CUDA capable GPU card. The examples use dou
 
 <br>
 <center>
-<img src="Porgs.png" width="475" height="254">
+<img src="porg.jpg" width="475" height="254">
 </center>
 
 Porgs are cool and Tks gpuschool2018.
