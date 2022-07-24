@@ -10,12 +10,8 @@ To run the notebooks you will need a CUDA capable GPU card. The examples use dou
 * [Pillow]-https://python-pillow.org 
 * [Matplotlib]-https://matplotlib.org/
 * [Jupyter]-http://jupyter.org/
-<br>
-<center>
-<img src="porg.jpg" width="800" height="800">
-</center>
 
-Porgs are cool and Ths from gpu summer2018.
+Refence GPU summer school...  
 
 # NEW REFERENCE (July 15th upload)
 ## Hanlin University software integration university big data major program /2019 autumn semester
